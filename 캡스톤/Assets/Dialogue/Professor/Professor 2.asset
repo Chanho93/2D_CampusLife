@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Professor 2
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 1
+  setting:
+  - description: "\uAD50\uC218:\uB098\uB294 \uD55C\uB9BC\uB300\uD559\uAD50\uC5D0\uC11C
+      \uC878\uC5C5\uD574\uC11C @#$%&\uB300\uD559\uC5D0\uC11C \uC11D\uD559\uC0AC\uB97C
+      \uB530\uC654\uB124 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uADF8\uB798 \uB2E4\uB978 \uAD81\uAE08\uD55C \uC810\uC774 \uC788\uB098? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet: []
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 11400000, guid: 1c5cd1f99c5824e4093d9175789df4b2, type: 2}
+    _flow: 1

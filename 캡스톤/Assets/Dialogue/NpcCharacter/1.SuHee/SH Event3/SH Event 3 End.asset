@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event 3 End
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 5
+  setting:
+  - description: "\uC8FC\uC778\uACF5\uC740 \uBC29\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uAFC8\uC744 \uAFE8\uB2E4 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5\uC740 \uB3D9\uC544\uB9AC\uC5D0\uC11C \uC5F4\uC2EC\uD788
+      \uC2A4\uD3EC\uCE20\uC5D0 \uC784\uD558\uACE0 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC218\uD76C\uB294 \uD68C\uC7A5\uACFC \uAC19\uC774 \uB300\uD654\uB97C
+      \uD558\uB294 \uBAA8\uC2B5\uC774 \uBCF4\uC600\uB2E4 "
+    description_Image: {fileID: 21300000, guid: 8aa982273a173f241bbd6cdfb954df53,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uAFC8\uC5D0\uC11C \uAE68\uC5B4\uB09C \uB2E4\uC74C\uB0A0, \uADF8
+      \uC774\uD6C4\uB85C \uC218\uD76C\uB294 \uBAA8\uC2B5\uC774 \uBCF4\uC774\uC9C0\uC54A\uC558\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 1
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0

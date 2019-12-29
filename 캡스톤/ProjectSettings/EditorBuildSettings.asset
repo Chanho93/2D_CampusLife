@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GAMESCENE/00.Title.unity
+    guid: fd790d6df9f75be46a3602b1600797e4
+  - enabled: 1
+    path: Assets/Scenes/GAMESCENE/01.Loding.unity
+    guid: 1042a6e50eadf6c47aca727c27c4d9d7
+  - enabled: 1
+    path: Assets/Scenes/GAMESCENE/02.MainMap.unity
+    guid: 9a4445587b419a14ca7546a556c86f6e
+  - enabled: 1
+    path: Assets/Scenes/GAMESCENE/GameOver.unity
+    guid: fa62d9c7b6bebcc468973efeae2bda77
+  - enabled: 1
+    path: Assets/Scenes/GAMESCENE/Ending.unity
+    guid: 10df0a1b87c628a48927182c0054b6fa
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/03.SubMap_School.unity
+    guid: 2f235170e7981b14dae83c019e888145
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/04.SubMap_Home.unity
+    guid: d8e4a98ea6a05b4498e728b15f7c8cc4
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/05.SubMap_PCRoom.unity
+    guid: c699300c1cc98c541a8e879347a9a097
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/06.SubMap_Coffee 1.unity
+    guid: d4ecdefb50f37924eac7dbdd8167251e
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/07.SubMap_Campus.unity
+    guid: f199bc6f87f44c4419dda03cce1e4de1
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/08.SubMap_Book.unity
+    guid: 30e5bd37cd7318d4ba877e2bf74066f6
+  - enabled: 0
+    path: Assets/Scenes/GAMESCENE/09.SubMap_bar.unity
+    guid: 6fca69954ad3a6d4090d87190062972c
+  m_configObjects: {}

@@ -1,0 +1,2707 @@
+fileFormatVersion: 2
+guid: beca5844c7ca30b47acda27932a3524b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: 8_1
+  - first:
+      213: 21300002
+    second: 8_2
+  - first:
+      213: 21300004
+    second: 8_3
+  - first:
+      213: 21300006
+    second: 8_4
+  - first:
+      213: 21300008
+    second: 8_5
+  - first:
+      213: 21300010
+    second: 8_6
+  - first:
+      213: 21300012
+    second: 8_7
+  - first:
+      213: 21300014
+    second: 8_8
+  - first:
+      213: 21300016
+    second: 8_9
+  - first:
+      213: 21300018
+    second: 8_10
+  - first:
+      213: 21300020
+    second: 8_11
+  - first:
+      213: 21300022
+    second: 8_12
+  - first:
+      213: 21300024
+    second: 7_1
+  - first:
+      213: 21300026
+    second: 7_2
+  - first:
+      213: 21300028
+    second: 7_3
+  - first:
+      213: 21300030
+    second: 7_4
+  - first:
+      213: 21300032
+    second: 7_5
+  - first:
+      213: 21300034
+    second: 7_6
+  - first:
+      213: 21300036
+    second: 7_7
+  - first:
+      213: 21300038
+    second: 7_8
+  - first:
+      213: 21300040
+    second: 7_9
+  - first:
+      213: 21300042
+    second: 7_10
+  - first:
+      213: 21300044
+    second: 7_11
+  - first:
+      213: 21300046
+    second: 7_12
+  - first:
+      213: 21300048
+    second: 6_1
+  - first:
+      213: 21300050
+    second: 6_2
+  - first:
+      213: 21300052
+    second: 6_3
+  - first:
+      213: 21300054
+    second: 6_4
+  - first:
+      213: 21300056
+    second: 6_5
+  - first:
+      213: 21300058
+    second: 6_6
+  - first:
+      213: 21300060
+    second: 6_7
+  - first:
+      213: 21300062
+    second: 6_8
+  - first:
+      213: 21300064
+    second: 6_9
+  - first:
+      213: 21300066
+    second: 6_10
+  - first:
+      213: 21300068
+    second: 6_11
+  - first:
+      213: 21300070
+    second: 6_12
+  - first:
+      213: 21300072
+    second: 5_1
+  - first:
+      213: 21300074
+    second: 5_2
+  - first:
+      213: 21300076
+    second: 5_3
+  - first:
+      213: 21300078
+    second: 5_4
+  - first:
+      213: 21300080
+    second: 5_5
+  - first:
+      213: 21300082
+    second: 5_6
+  - first:
+      213: 21300084
+    second: 5_7
+  - first:
+      213: 21300086
+    second: 5_8
+  - first:
+      213: 21300088
+    second: 5_9
+  - first:
+      213: 21300090
+    second: 5_10
+  - first:
+      213: 21300092
+    second: 5_11
+  - first:
+      213: 21300094
+    second: 5_12
+  - first:
+      213: 21300096
+    second: 4_1
+  - first:
+      213: 21300098
+    second: 4_2
+  - first:
+      213: 21300100
+    second: 4_3
+  - first:
+      213: 21300102
+    second: 4_4
+  - first:
+      213: 21300104
+    second: 4_5
+  - first:
+      213: 21300106
+    second: 4_6
+  - first:
+      213: 21300108
+    second: 4_7
+  - first:
+      213: 21300110
+    second: 4_8
+  - first:
+      213: 21300112
+    second: 4_9
+  - first:
+      213: 21300114
+    second: 4_10
+  - first:
+      213: 21300116
+    second: 4_11
+  - first:
+      213: 21300118
+    second: 4_12
+  - first:
+      213: 21300120
+    second: 3_1
+  - first:
+      213: 21300122
+    second: 3_2
+  - first:
+      213: 21300124
+    second: 3_3
+  - first:
+      213: 21300126
+    second: 3_4
+  - first:
+      213: 21300128
+    second: 3_5
+  - first:
+      213: 21300130
+    second: 3_6
+  - first:
+      213: 21300132
+    second: 3_7
+  - first:
+      213: 21300134
+    second: 3_8
+  - first:
+      213: 21300136
+    second: 3_9
+  - first:
+      213: 21300138
+    second: 3_10
+  - first:
+      213: 21300140
+    second: 3_11
+  - first:
+      213: 21300142
+    second: 3_12
+  - first:
+      213: 21300144
+    second: 2_1
+  - first:
+      213: 21300146
+    second: 2_2
+  - first:
+      213: 21300148
+    second: 2_3
+  - first:
+      213: 21300150
+    second: 2_4
+  - first:
+      213: 21300152
+    second: 2_5
+  - first:
+      213: 21300154
+    second: 2_6
+  - first:
+      213: 21300156
+    second: 2_7
+  - first:
+      213: 21300158
+    second: 2_8
+  - first:
+      213: 21300160
+    second: 2_9
+  - first:
+      213: 21300162
+    second: 2_10
+  - first:
+      213: 21300164
+    second: 2_11
+  - first:
+      213: 21300166
+    second: 2_12
+  - first:
+      213: 21300168
+    second: 1_1
+  - first:
+      213: 21300170
+    second: 1_2
+  - first:
+      213: 21300172
+    second: 1_3
+  - first:
+      213: 21300174
+    second: 1_4
+  - first:
+      213: 21300176
+    second: 1_5
+  - first:
+      213: 21300178
+    second: 1_6
+  - first:
+      213: 21300180
+    second: 1_7
+  - first:
+      213: 21300182
+    second: 1_8
+  - first:
+      213: 21300184
+    second: 1_9
+  - first:
+      213: 21300186
+    second: 1_10
+  - first:
+      213: 21300188
+    second: 1_11
+  - first:
+      213: 21300190
+    second: 1_12
+  - first:
+      213: 2471489710100095844
+    second: modern2_0
+  - first:
+      213: -6514432566323618745
+    second: modern2_1
+  - first:
+      213: 8480040555738611662
+    second: modern2_2
+  - first:
+      213: -8706882869231761245
+    second: modern2_3
+  - first:
+      213: -9153371231742658172
+    second: modern2_4
+  - first:
+      213: 4756962229902200162
+    second: modern2_5
+  - first:
+      213: -1823659286313654148
+    second: modern2_6
+  - first:
+      213: 8027610756351477895
+    second: modern2_7
+  - first:
+      213: 6635646680857975073
+    second: modern2_8
+  - first:
+      213: 6288898196698043624
+    second: modern2_9
+  - first:
+      213: -2787804179354663946
+    second: modern2_10
+  - first:
+      213: -1327767152693962089
+    second: modern2_11
+  - first:
+      213: -581986990751591431
+    second: modern2_12
+  - first:
+      213: 8175403851538617085
+    second: modern2_13
+  - first:
+      213: -7888933778542272132
+    second: modern2_14
+  - first:
+      213: 7263815711438966904
+    second: modern2_15
+  - first:
+      213: 180285199276509608
+    second: modern2_16
+  - first:
+      213: 5184743810688001200
+    second: modern2_17
+  - first:
+      213: 813658189009708040
+    second: modern2_18
+  - first:
+      213: 4195200706050856932
+    second: modern2_19
+  - first:
+      213: 804166349031413782
+    second: modern2_20
+  - first:
+      213: -5998774281663413592
+    second: modern2_21
+  - first:
+      213: 8269548524170767435
+    second: modern2_22
+  - first:
+      213: -9174918308506140678
+    second: modern2_23
+  - first:
+      213: -787961195144808070
+    second: modern2_24
+  - first:
+      213: -4880515491134467809
+    second: modern2_25
+  - first:
+      213: -7021879348495054498
+    second: modern2_26
+  - first:
+      213: -1083226381485985806
+    second: modern2_27
+  - first:
+      213: 6163285275010379393
+    second: modern2_28
+  - first:
+      213: -5810385298154127843
+    second: modern2_29
+  - first:
+      213: 7202737187047284368
+    second: modern2_30
+  - first:
+      213: -8086012234375470319
+    second: modern2_31
+  - first:
+      213: -308678991611932576
+    second: modern2_32
+  - first:
+      213: 99244518144615173
+    second: modern2_33
+  - first:
+      213: -456451721204758837
+    second: modern2_34
+  - first:
+      213: 3512111736108628574
+    second: modern2_35
+  - first:
+      213: 5350706777595221734
+    second: modern2_36
+  - first:
+      213: -4944016424127669398
+    second: modern2_37
+  - first:
+      213: 7026377067620785092
+    second: modern2_38
+  - first:
+      213: 4240897317689685082
+    second: modern2_39
+  - first:
+      213: 1153806907647671788
+    second: modern2_40
+  - first:
+      213: -955993871472221071
+    second: modern2_41
+  - first:
+      213: 5987161656204999618
+    second: modern2_42
+  - first:
+      213: 5134683218597250308
+    second: modern2_43
+  - first:
+      213: -5637735321494059581
+    second: modern2_44
+  - first:
+      213: 1999843739012628058
+    second: modern2_45
+  - first:
+      213: -5427202928405183
+    second: modern2_46
+  - first:
+      213: -1627812640360452447
+    second: modern2_47
+  - first:
+      213: -7469011898855130087
+    second: modern2_48
+  - first:
+      213: -7135155743773990674
+    second: modern2_49
+  - first:
+      213: 8718176227372833955
+    second: modern2_50
+  - first:
+      213: 8707259914800669406
+    second: modern2_51
+  - first:
+      213: 8911098905195662265
+    second: modern2_52
+  - first:
+      213: 2825634429454113272
+    second: modern2_53
+  - first:
+      213: -4673154870803135821
+    second: modern2_54
+  - first:
+      213: 7333048910286461608
+    second: modern2_55
+  - first:
+      213: 680356586898911876
+    second: modern2_56
+  - first:
+      213: -7170786050421669718
+    second: modern2_57
+  - first:
+      213: 4893209433034984965
+    second: modern2_58
+  - first:
+      213: 8721413807839565878
+    second: modern2_59
+  - first:
+      213: 8624281975787517269
+    second: modern2_60
+  - first:
+      213: -67067961988832269
+    second: modern2_61
+  - first:
+      213: -468961153103834469
+    second: modern2_62
+  - first:
+      213: 2693739240668107428
+    second: modern2_63
+  - first:
+      213: 5042389188658073667
+    second: modern2_64
+  - first:
+      213: -3073262508638393536
+    second: modern2_65
+  - first:
+      213: -3661285339386255495
+    second: modern2_66
+  - first:
+      213: 6182546013580276814
+    second: modern2_67
+  - first:
+      213: 5952487802775499330
+    second: modern2_68
+  - first:
+      213: 994140005518072500
+    second: modern2_69
+  - first:
+      213: 653632696030376629
+    second: modern2_70
+  - first:
+      213: 5431399216272065827
+    second: modern2_71
+  - first:
+      213: -6266030177818622079
+    second: modern2_72
+  - first:
+      213: 1887023381881412226
+    second: modern2_73
+  - first:
+      213: 6342312082175653487
+    second: modern2_74
+  - first:
+      213: 5018467239478752996
+    second: modern2_75
+  - first:
+      213: 3719162028280819512
+    second: modern2_76
+  - first:
+      213: -3796434526624565398
+    second: modern2_77
+  - first:
+      213: 3846909689241962830
+    second: modern2_78
+  - first:
+      213: -417688393761994007
+    second: modern2_79
+  - first:
+      213: -3189751829911922719
+    second: modern2_80
+  - first:
+      213: 6530929708950284865
+    second: modern2_81
+  - first:
+      213: 3839027101947060803
+    second: modern2_82
+  - first:
+      213: 3448865496847153052
+    second: modern2_83
+  - first:
+      213: 2772855100360705598
+    second: modern2_84
+  - first:
+      213: -4710571081700666792
+    second: modern2_85
+  - first:
+      213: -4208831745325463305
+    second: modern2_86
+  - first:
+      213: 5879106107009392085
+    second: modern2_87
+  - first:
+      213: 1477828310293507884
+    second: modern2_88
+  - first:
+      213: 8001453991416179456
+    second: modern2_89
+  - first:
+      213: -1780688841012835235
+    second: modern2_90
+  - first:
+      213: 38184669761634905
+    second: modern2_91
+  - first:
+      213: -9213433683336932639
+    second: modern2_92
+  - first:
+      213: 1896652414082915999
+    second: modern2_93
+  - first:
+      213: 2112568712559513571
+    second: modern2_94
+  - first:
+      213: -1616427348889601605
+    second: modern2_95
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 16
+    mipBias: -100
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 46
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: modern2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e90889a615492e4fa58f6b0b71d1c7f
+      internalID: 2471489710100095844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbad0cc358c8634c87a0e0bde689473
+      internalID: -6514432566323618745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36bd4bf6603ce041b98dfe5e8f650dd
+      internalID: 8480040555738611662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd95b4e4cce2342b7fedecc29a8253
+      internalID: -8706882869231761245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b1f66a05504274599622b06174280c
+      internalID: -9153371231742658172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d49e7c1aa6aaa408d6b4bc20933f3d
+      internalID: 4756962229902200162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e123e4cdfe8374785def4fdf9ac04e
+      internalID: -1823659286313654148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7e2416259477340aa4fd6b261fc707
+      internalID: 8027610756351477895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819cfb250fc80474abbb2f9c74c76817
+      internalID: 6635646680857975073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ee2fc5554a5f448a4d9e7f57fcacbf
+      internalID: 6288898196698043624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe173dfa05f4ddf4abf6b8624444dc57
+      internalID: -2787804179354663946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 448
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624d2aa25908a5947af9a03bbb03305c
+      internalID: -1327767152693962089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1846aadaf3aab4f8ed998aa9d48c93
+      internalID: -581986990751591431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab69cb2d8ef01f446b516b02a7dc15c0
+      internalID: 8175403851538617085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755885089826b1748b2ecd5c4a5b5645
+      internalID: -7888933778542272132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b30cd82cbbbd1d458f2b9086d73e6d8
+      internalID: 7263815711438966904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4343ee824948c644e9b23cad3b7ba2d1
+      internalID: 180285199276509608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11db5beded7aa9a48984db6f58945320
+      internalID: 5184743810688001200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82adb5669b679849827a207ce24dbd7
+      internalID: 813658189009708040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb637833c5e3b44e8507aa024d140d8
+      internalID: 4195200706050856932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4c1cd8e95444447981102e06d05e0a
+      internalID: 804166349031413782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_21
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7399597ab53c21438b86909bb2426e4
+      internalID: -5998774281663413592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6141b66fefd0e6488f6317fdf09d7b5
+      internalID: 8269548524170767435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_23
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 384
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc2a09d47c3d8a45b46802191d59234
+      internalID: -9174918308506140678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e205519e1634f4b8d92300e4a872c6
+      internalID: -787961195144808070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_25
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9753a9768c3364241bfe46a045bbf457
+      internalID: -4880515491134467809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422e6b7065cc8c2498795a9575202750
+      internalID: -7021879348495054498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72d0c9e1d148d14ab77100d7c38fb14
+      internalID: -1083226381485985806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbd370c3e84edd49a7cd745213f0109
+      internalID: 6163285275010379393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_29
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ce0b8b6ac571c4dbf643713e475103
+      internalID: -5810385298154127843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d69119cb5140c44870fef27595707c
+      internalID: 7202737187047284368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_31
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dabae196e3be674bbc3b72cf62356cd
+      internalID: -8086012234375470319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_32
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d1457eeb9e2c44a946db6e2c7fdfdf
+      internalID: -308678991611932576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_33
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ce311423406d49b4be754b21c3fcc
+      internalID: 99244518144615173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_34
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93046f49f15498f41b669c08dfc995de
+      internalID: -456451721204758837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_35
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 320
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9e683eeb1c1284cb340aa2fe72a5ec
+      internalID: 3512111736108628574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605094ead2a37f43895df147e3d797a
+      internalID: 5350706777595221734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1d1b2d8d240784aafefcedd4b418d5
+      internalID: -4944016424127669398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_38
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19efa102a37738449a8c256127e8d09a
+      internalID: 7026377067620785092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_39
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e51b55c90ec21489a9cf1862cc3abf
+      internalID: 4240897317689685082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_40
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be1ff0643d00de48858065fb8fc1b5d
+      internalID: 1153806907647671788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_41
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ef3e1cf6b67db488741d9b5bdc31e9
+      internalID: -955993871472221071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c2998403a5344da8664a7df42c2ac
+      internalID: 5987161656204999618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e5701fe3ac0f14ca57f2c63b7c7a2d
+      internalID: 5134683218597250308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33873f9fc9ab5c14d9d6ca8e94e3baf0
+      internalID: -5637735321494059581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_45
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef6a9511a1a13e4eafc72369063d641
+      internalID: 1999843739012628058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_46
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686aa3f3fb3ea0448a06c9d50e314ad
+      internalID: -5427202928405183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_47
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 256
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c9c9b81911cf349865e790d4179734
+      internalID: -1627812640360452447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3492c4b59f7509498ade9ad1b4b7ec0
+      internalID: -7469011898855130087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cc142a7b19f0c4d94412edb4b56030
+      internalID: -7135155743773990674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63aa8411d0cf764b9a878b627233d3e
+      internalID: 8718176227372833955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfd3eb4ff9273342976405052fb249c
+      internalID: 8707259914800669406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_52
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04896f56b1721f40a4dc1c7fe0051d9
+      internalID: 8911098905195662265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_53
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cb992bb1cc5ba4e87b6b294000f559
+      internalID: 2825634429454113272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d3bbc86580c714f932267cb800dbc0
+      internalID: -4673154870803135821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf5de6638a2a8449b27fb81fdcbdffa
+      internalID: 7333048910286461608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_56
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a673e87392d3e4f4e9e39e978dacd79e
+      internalID: 680356586898911876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_57
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55acdc281cfe6b444b8a167d26d4bbcd
+      internalID: -7170786050421669718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_58
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11208e56350204f49962d963fd9d1c31
+      internalID: 4893209433034984965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_59
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b35b21ad788e24886087b953d31b4a
+      internalID: 8721413807839565878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810934257183a04c8c692bbad5f697f
+      internalID: 8624281975787517269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_61
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc3a87554ec5ab4a9019c0add921dee
+      internalID: -67067961988832269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_62
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e0a8dff67572f49a3dec1f572fedcf
+      internalID: -468961153103834469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_63
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f749dc97e07197a4589a1b1d4f4418f4
+      internalID: 2693739240668107428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_64
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa6f174df75f50429528fa05ede4332
+      internalID: 5042389188658073667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_65
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196201f3fe6b5443ba97655bdfaf388
+      internalID: -3073262508638393536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_66
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ed7acb7a122764b9139e4e7e78b341
+      internalID: -3661285339386255495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_67
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62245e92a12a5f845a00d7c17905afb8
+      internalID: 6182546013580276814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_68
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04322941dc3fe54c976a0f7704a8eed
+      internalID: 5952487802775499330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_69
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9a50c5b382164e88a447929a82ef7
+      internalID: 994140005518072500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_70
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa2eb1d2a52d28409ab97e1664751f4
+      internalID: 653632696030376629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_71
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 128
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171da316addd4b346be3407bd98a4b6b
+      internalID: 5431399216272065827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e443c6935016fd44969589e3564ee41
+      internalID: -6266030177818622079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_73
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b345cf774c064a54b8872b7b23a52ad4
+      internalID: 1887023381881412226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_74
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4739be3031a32ae47b2fbbb9c7d0f870
+      internalID: 6342312082175653487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_75
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ae4baf65e3f24eb97b842587bf606
+      internalID: 5018467239478752996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_76
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815f14ae99b0fac48b61f2c1b8b618c0
+      internalID: 3719162028280819512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_77
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d9653bcb41c17499a7afc672964499
+      internalID: -3796434526624565398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_78
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c7b004ca2f1d4e93910ffeb0f0b3c
+      internalID: 3846909689241962830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_79
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fc5eef46a824141a4cd6eb51269e28
+      internalID: -417688393761994007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_80
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893213a62a54744485d4899739b547d
+      internalID: -3189751829911922719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_81
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f45cbb7dd6d1f44b8b3ad66db6db481
+      internalID: 6530929708950284865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_82
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c1535baf7cf64196e34582498008c
+      internalID: 3839027101947060803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_83
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 64
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7942e6a587d0024a841bc0cd243c2e0
+      internalID: 3448865496847153052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65916462ae850c4386dbd98bbe3e059
+      internalID: 2772855100360705598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_85
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b551203dc88c24a9f40a3d40e50ae3
+      internalID: -4710571081700666792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_86
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22b9b4599683624a9fd6a7630ec83ef
+      internalID: -4208831745325463305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c858a736be692d478bcffe563c0e9dd
+      internalID: 5879106107009392085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_88
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a28ea72bb16ea4449eacbacc4e8106d
+      internalID: 1477828310293507884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_89
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d507f561592744a88b03b445b39755
+      internalID: 8001453991416179456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_90
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabb96c4eb90fe841b1d4ca922e94717
+      internalID: -1780688841012835235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_91
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250238356f8cb914f9eae2c729b5301a
+      internalID: 38184669761634905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_92
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935fbe63fcc77344b09731f10041401
+      internalID: -9213433683336932639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_93
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fc09c1a55344047a11c25b7dd4b420
+      internalID: 1896652414082915999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_94
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc6a61014ed24b47bcc7106828e64a1
+      internalID: 2112568712559513571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modern2_95
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519c658e25ea73449b0196c7e1893ae
+      internalID: -1616427348889601605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 638d14a14b65c6541bc8d2eab9685c6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: npc
+  assetBundleVariant: 

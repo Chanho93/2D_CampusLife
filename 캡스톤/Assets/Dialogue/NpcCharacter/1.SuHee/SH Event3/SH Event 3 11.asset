@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event 3 11
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 4
+  setting:
+  - description: "\uAC00\uC11C \uD63C\uC790 \uC788\uB294 \uBA85\uD604\uC774\uD615\uC744
+      \uB9CC\uB0AC\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uBA85\uD604:\uC57C \uC9C0\uAE08 \uB108 \uBB50\uD558\uB0D0? "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5:\uC800\uC694? \uC220\uB9C8\uC2DC\uB2E4 \uC654\uC8E0? "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBA85\uD604:\uB0B4\uAC00 \uC900\uAC74 \uC81C\uB300\uB85C \uC4F0\uAE34\uD558\uB294\uAC70\uB0D0? "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBA85\uD604: \uADF8\uAC70 \uC774\uC131\uACFC\uC758 \uC560\uC815\uB3C4\uB97C
+      \uC62C\uB824\uC8FC\uB294 \uC544\uC774\uD15C\uC774\uC57C  "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uADF8\uAC78\uB85C \uAD00\uACC4\uB97C \uBB34\uB974\uC775\uC744 \uC218
+      \uC788\uC5C8\uB294\uB370 "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uB108\uC758 \uC21C\uAC04\uC758 \uC120\uD0DD\uC5D0 \uC758\uD574
+      \uBAA8\uB4E0\uAC8C \uC5C6\uC5B4\uC9C8 \uC218 \uC788\uC5B4 "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uADF8\uB807\uAC8C \uBA85\uD604\uC774 \uD615\uACFC \uC7AC\uBC0C\uAC8C
+      \uAC8C\uC784\uD558\uACE0 \uBC29\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 7
+    timer: 3
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 1
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

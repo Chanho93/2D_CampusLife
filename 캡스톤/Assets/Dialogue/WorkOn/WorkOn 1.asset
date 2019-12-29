@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: WorkOn 1
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _choicenumber: 3
+  _ChoiceMsg1: "\uC544\uB974\uBC14\uC774\uD2B8\uB97C \uD55C\uB2E4"
+  _NextChoice1Node:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent1:
+  - msgenum: 6
+    timer: 3
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 8
+    timer: 100000
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _ChoiceMsg2: "\uC544\uBB34 \uAC83\uB3C4 \uD558\uC9C0\uC54A\uB294\uB2E4"
+  _NextChoice2Node:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent2:
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _ChoiceMsg3: "\uBD80\uBAA8\uB2D8\uAED8 \uC804\uD654\uB85C \uB3C8\uC744 \uBC1B\uB294\uB2E4"
+  _NextChoice3Node:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent3:
+  - msgenum: 8
+    timer: 200000
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0

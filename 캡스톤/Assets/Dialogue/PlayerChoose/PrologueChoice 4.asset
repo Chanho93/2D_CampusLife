@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: PrologueChoice 4
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _ChoiceMsg1: "\uB300\uD559\uC640\uC11C \uACF5\uBD80\uD574\uC57C \uD558\uB294 \uC785\uC7A5\uC73C\uB85C
+    \uBCFC \uB550 \uADF8\uAC74 \uC544\uB2CC\uAC70\uAC19\uC544\uC694 "
+  _NextChoice1Node:
+    _NextNode: {fileID: 11400000, guid: 9d8bb4613a7a2a34dafe1a8f2ac38344, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent1:
+  - msgenum: 8
+    timer: 200000
+    pos: {fileID: 0}
+  _ChoiceMsg2: "\uBD80\uBAA8\uB2D8\uAED8 \uC190\uBE4C\uB9AC\uACE0 \uC2F6\uC9C0\uC54A\uC544\uC694
+    \uC5ED\uC2DC \uD574\uC57C\uACA0\uC8E0 "
+  _NextChoice2Node:
+    _NextNode: {fileID: 11400000, guid: 9d8bb4613a7a2a34dafe1a8f2ac38344, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent2:
+  - msgenum: 8
+    timer: 300000
+    pos: {fileID: 0}
+  _ChoiceMsg3: "\uC2EB\uC5B4\uC694 \uADF8\uB0E5 \uBD80\uBAA8\uB2D8\uAED8 \uB3C8 \uBC1B\uC744\uB798\uC694 "
+  _NextChoice3Node:
+    _NextNode: {fileID: 11400000, guid: 9d8bb4613a7a2a34dafe1a8f2ac38344, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent3:
+  - msgenum: 8
+    timer: 600000
+    pos: {fileID: 0}

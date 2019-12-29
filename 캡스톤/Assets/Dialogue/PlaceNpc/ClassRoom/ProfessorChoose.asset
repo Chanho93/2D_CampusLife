@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: ProfessorChoose
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _ChoiceMsg1: "\uD559\uAD50 \uC218\uC5C5\uC5D0 \uB300\uD574 \uAD81\uAE08\uD569\uB2C8\uB2E4"
+  _NextChoice1Node: {fileID: 11400000, guid: 66bc89832363c664dadb3070f453722a, type: 2}
+  _ChoiceMsg2: "\uAD50\uC218\uB2D8\uC740 \uC5B4\uB514 \uCD9C\uC2E0\uC778\uAC00\uC694?"
+  _NextChoice2Node: {fileID: 0}
+  _ChoiceMsg3: "\uAD50\uC218\uB2D8\uC740 \uB17C\uBB38\uC548\uC4F0\uC2DC\uB098\uC694?"
+  _NextChoice3Node: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Prologue End
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  setting:
+  - description: "\uC5B4\uD5C8...\uADF8\uB7FC \uC790\uB124..."
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC544\uBB34 \uAC83\uB3C4 \uC5C6\uC774 \uC9C0\uB0BC \uC218 \uC788\uB098?"
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet: []
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 11400000, guid: 261ec3a1a9df75b4da839b3625f0fa2b, type: 2}
+    _flow: 1

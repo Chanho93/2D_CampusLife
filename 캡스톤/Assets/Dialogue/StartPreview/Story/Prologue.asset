@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  setting:
+  - description: "20XX\uB144 3\uC6D4 \uBD04\uD5A5\uAE30\uAC00 \uD53C\uC5B4\uC624\uB974\uB294
+      3\uC6D4 1\uC77C (\uC6D4\uC694\uC77C)"
+    description_Image: {fileID: 0}
+  - description: "\uC624\uB298\uC758 \uC8FC\uC778\uACF5\uC740 \uB300\uD559\uAD50\uB97C
+      \uAC00\uAE30\uC704\uD574 \uC900\uBE44\uB97C \uD558\uB294\uB370.... "
+    description_Image: {fileID: 0}
+  - description: "\uD55C\uB9BC\uB300\uD559\uAD50 \uADFC\uCC98 \uC5B4\uB290 \uC790\uCDE8\uBC29"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:\uC544... \uC5B4\uC81C \uBC24\uB2A6\uAC8C \uC640\uC11C
+      \uD798\uB4E4\uC5C8\uB294\uB370 \uC624\uB298\uBD80\uD130 \uC2DC\uC791\uC774\uAD6C\uB098"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:\uBE68\uB9AC \uAD50\uC2E4\uAC08 \uC900\uBE44\uB97C
+      \uD574\uC57C\uACA0\uB2E4"
+    description_Image: {fileID: 0}
+  - description: "\uC900\uBE44\uBB3C\uC744 \uCC59\uAE30\uC790!"
+    description_Image: {fileID: 0}
+  - description: "...\uC8FC\uC12C\uC8FC\uC12C"
+    description_Image: {fileID: 0}
+  - description: "\uC9C0\uAC01\uD558\uACA0\uB2E4 \uBE68\uB9AC\uAC00\uC57C\uC9C0! \uD638\uB2E4\uB2E4\uB2E4\uB2E5!"
+    description_Image: {fileID: 0}
+  - description: "\uD55C\uB9BC\uB300\uD559\uAD50 \uACF5\uD559\uAD00 \uC5B4\uB290 \uC88B\uC740
+      \uC2E4\uC2B5\uC2E4"
+    description_Image: {fileID: 0}
+  - description: "\uD734\uC6B0~ \uACA8\uC6B0 \uB3C4\uCC29\uD588\uB124!"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uCCAB \uB0A0\uBD80\uD130 \uC9C0\uAC01\uC774\uB0D0
+      \uC5B4\uB5BB\uAC8C \uBCF4\uB0BC\uB824\uACE0 \uADF8\uB7EC\uB0D0 \u314B\u314B"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:\uC544\uC624~ \uADF8\uB7F4 \uC218\uB3C4 \uC788\u3148...."
+    description_Image: {fileID: 0}
+  - description: "\uAD50\uC218\uB2D8:\uC5B4\uD760! \uC5EC\uB7EC\uBD84 \uC624\uB298
+      \uBE68\uB9AC \uAC00\uACE0 \uC2F6\uC8E0?"
+    description_Image: {fileID: 0}
+  - description: "\uD559\uC0DD\uB4E4: \uC608!! (\uD559\uAD50\uAC00 \uBD80\uC11C\uC9C8
+      \uC815\uB3C4\uC758 \uD070\uC18C\uB9AC)"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:(???? \uBB50\uC9C0? \uC218\uC5C5\uC788\uB294\uAC70
+      \uC544\uB2CC\uAC00?)"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1: \uC57C, \uBAA8\uB974\uB294 \uCC99 \uD558\uC9C0\uB9C8
+      \u314B \uC774\uBC88\uC8FC \uAE30\uAC04\uC740 OT\uC796\uC544"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:OT? \uADF8\uAC70 \uD559\uAD50\uAC00\uAE30 \uC804\uC5D0
+      \uC774\uBBF8 \uD55C\uAC70 \uC544\uB2C8\uC5C8\uC5B4?"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1: \uC544\uB2C8 \u314B\u314B\u314B\u314B \uADF8\uAC78
+      \uBAB0\uB77C? \uD06C\uD760\u314B\u314B\u314B\u314B"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uC88B\uC740 \uCE5C\uAD6C\uB97C \uB454 \uB108\uC5D0\uAC8C
+      \uC124\uBA85\uC744 \uD574\uC8FC\uC9C0"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:OT\uB294 \uB9D0\uC774\uC57C~(\uC124\uBA85 \uC124\uBA85
+      \uC124\uBA85)"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:(\uC598 TMI\uC778\uAC00?) \uADF8\uB798~ \uADF8\uB798~"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uC694\uC57D\uD558\uC790\uBA74 \uC55E\uC73C\uB85C\uC758
+      \uB85C\uB4DC\uB9F5\uC744 \uB9D0\uD558\uB294\uAC70\uC57C "
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:\uADF8\uB7F0\uAC00? \uAD50\uC218\uB2D8\uB9C8\uB2E4
+      \uC218\uC5C5 \uBC14\uB85C \uC9C4\uD589\uD558\uC2DC\uB294 \uBD84\uB3C4 \uACC4\uC2E0\uB2E4\uACE0
+      \uADF8\uB7EC\uB358\uB370?"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uADF8\uAC74 \uCF00\uBC14\uCF00\uB77C \uC5B4\uCA54
+      \uC218 \uC5C6\uC5B4 \uAD50\uC218\uB2D8\uB4E4\uB9C8\uB2E4 \uC2A4\uD0C0\uC77C\uC774
+      \uD2C0\uB9B0\uAC70\uB2C8\uAE4C"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:\uADF8\uB7FC \uC624\uB298 \uBB50\uD558\uC9C0?
+      \uB180\uAE4C?"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uC544\uB2C8\uC9C0 \uC624\uB298\uC740 \uC7A0\uAE50
+      \uBC14\uB78C\uC774\uB098 \uC880 \uC434\uACB8 \uD559\uAD50 \uC880 \uB3CC\uC544\uBCF4\uC790
+      \u314E"
+    description_Image: {fileID: 0}
+  - description: "(\uC774 \uBD80\uBD84\uC740 \uC124\uC815\uC5D0\uC11C \uD29C\uD1A0\uB9AC\uC5BC\uC744
+      \uD1B5\uD574 \uD655\uC778\uD558\uC2E4 \uC218 \uC788\uC2B5\uB2C8\uB2E4.)"
+    description_Image: {fileID: 0}
+  - description: "\uCE5C\uAD6C1:\uC790 \uC774\uC81C \uB2E4 \uB05D\uB09C\uAC70\uAC19\uC73C\uB2C8\uAE4C
+      \uBCF4\uB7EC\uAC00\uBCFC\uAE4C?"
+    description_Image: {fileID: 0}
+  - description: "\uC8FC\uC778\uACF5:(\uBB50\uAC00 \uB2E4\uB05D\uB0AC\uB294\uB370
+      \uC774 \uCE5C\uAD6C\uC57C....)\uADF8...\uADF8\uB798"
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  - description: 
+    description_Image: {fileID: 0}
+  nextNODE: {fileID: 11400000, guid: d28abf92496d53b48aa09c24a9db497f, type: 2}

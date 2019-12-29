@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Pc room ground 1
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 4
+  setting:
+  - description: "\uCC9C\uC0AC\uC758 \uC778\uB3C4\uB85C \uC815\uD588\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uAC00\uB140\uB9B0 \uCC9C\uC0AC\uAC00 \uC0AC\uB78C\uB4E4\uC744 \uCC3E\uC544\uC11C
+      \uCC9C\uAD6D\uC73C\uB85C \uC778\uB3C4\uD574\uC8FC\uB294 \uAC8C\uC784 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC0AC\uB78C\uB4E4\uC740 \uD604\uC138\uC5D0 \uC874\uC7AC\uD558\uAE30
+      \uC704\uD574 \uCC9C\uC0AC\uB85C\uBD80\uD130 \uB3C4\uB9DD\uCE5C\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

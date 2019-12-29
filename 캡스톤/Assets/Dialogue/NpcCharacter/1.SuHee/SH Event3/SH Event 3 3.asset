@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event 3 3
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 6
+  setting:
+  - description: "\uC548\uB155\uD558\uC138\uC694, 20\uD559\uBC88 \uC8FC\uC778\uACF5\uC785\uB2C8\uB2E4
+      \uC55E\uC73C\uB85C \uC798 \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4! "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBD80\uC6D0\uB4E4\uC758 \uD658\uD638\uC640 \uAC08\uCC44\uAC00 \uB4E4\uB824\uC628\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet: []
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 11400000, guid: 03fa4170169f25d4cbdca448f72928f6, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: SH Event 3 Choice 1
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _ChoiceMsg1: "\uD3C9\uBC94\uD558\uAC8C \uC778\uC0AC\uD55C\uB2E4 "
+  _NextChoice1Node:
+    _NextNode: {fileID: 11400000, guid: 83e7c01f36a4957458e1a8b946075a20, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent1:
+  - msgenum: 6
+    timer: 1
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+  _ChoiceMsg2: "\uAC15\uB82C\uD55C \uC778\uC0C1\uC744 \uC2EC\uC5B4\uC900\uB2E4 "
+  _NextChoice2Node:
+    _NextNode: {fileID: 11400000, guid: 430efdaf2792912418b3285390a48c45, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent2:
+  - msgenum: 6
+    timer: 2
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+  _ChoiceMsg3: "\uAE34\uC7A5\uB41C \uC0C1\uD0DC\uC5D0\uC11C \uC778\uC0AC\uD55C\uB2E4 "
+  _NextChoice3Node:
+    _NextNode: {fileID: 11400000, guid: 1a54c39f16456c1449ed479ab7cb8c7e, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent3: []

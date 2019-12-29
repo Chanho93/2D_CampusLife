@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: JH 1
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 3
+  setting:
+  - description: "\uC9C0\uD6A8:\uC54C\uACA0\uC5B4 \uADF8\uB7FC \uAD50\uC2E4\uC5D0\uC11C
+      \uAC00\uB974\uCCD0\uC904\uAED8"
+    description_Image: {fileID: 21300000, guid: 82c30c1720c370946a84111379b84748,
+      type: 3}
+    descriptionTime: 1
+  - description: "(\uADF8\uB807\uAC8C \uC624\uB298\uB3C4 \uC8FC\uC778\uACF5\uC740
+      \uC5F4\uC2EC\uD788 \uACF5\uBD80\uD558\uB294\uB370 \uB3C4\uC6C0\uC744 \uBC1B\uC558\uB2E4.)"
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

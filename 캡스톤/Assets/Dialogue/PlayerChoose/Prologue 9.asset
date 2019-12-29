@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Prologue 9
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  setting:
+  - description: "\uC220\uC744 \uC798\uB9C8\uC2DC\uB098 \uBCF4\uAD70 \uD56B\uD558! "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uAE38\uACE0 \uAE38\uC5C8\uB358 \uC9C8\uBB38 \uC774\uC81C \uB9C8\uC9C0\uB9C9\uC774\uB124 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC790\uB124\uC640 \uD5E4\uC5B4\uC9C8\uB824\uACE0 \uC544\uC27D\uAD6C\uB9CC "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC790\uB124\uB294 \uC774\uC131\uCE5C\uAD6C\uAC00 \uC788\uB294\uAC00?
+      \uD639\uC740 \uC788\uC5C8\uB098? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uD50C\uB808\uC774\uC5B4:(\uAC11\uC790\uAE30?) \uC65C\uC8E0? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC774\uC720\uB294 \uB9C8\uC9C0\uB9C9\uC5D0 \uC598\uAE30\uD574\uC8FC\uACA0\uB124
+      \uBE68\uB9AC \uB2F5\uD574\uC8FC\uACA0\uB098 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 11400000, guid: 898b057147e336e43bead1883e7ada96, type: 2}
+    _flow: 1

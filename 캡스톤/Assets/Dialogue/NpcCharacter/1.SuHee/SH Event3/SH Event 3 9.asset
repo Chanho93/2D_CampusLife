@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event 3 9
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 6
+  setting:
+  - description: "\uD68C\uC7A5\uB2D8 \uD63C\uC790\uC11C \uC5EC\uB7EC\uBA85\uC744 \uB3C4\uC640\uC8FC\uAE30
+      \uD798\uB4DC\uB2C8 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5\uC774 \uB3C4\uC640\uC92C\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC220\uCDE8\uD55C \uCC99\uD55C \uC218\uD76C\uB294 \uB2E4\uAC00\uC640\uC11C
+      \ "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC218\uD76C:\uD68C\uC7A5\uB2D8 \uB3C4\uC640\uC8FC\uB294\uAC70 \uB05D\uB098\uACE0
+      \uD3B8\uC758\uC810\uAC08\uB798? "
+    description_Image: {fileID: 21300000, guid: 8aa982273a173f241bbd6cdfb954df53,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uADF8\uB798"
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC218\uD76C\uB294 \uC7A0\uC2DC \uBAB8\uC744 \uC228\uACBC\uB2E4
+      \uADF8\uC640\uC911\uC5D0 \uD68C\uC7A5\uC774 \uC640\uC120 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uD68C\uC7A5:\uC8FC\uC778\uACF5, \uC624\uB298 \uB108\uB3C4 \uC218\uACE0
+      \uB9CE\uC558\uB2E4 \u314E "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uC544\uB2C8\uC5D0\uC694 \uD615,\uC624\uB298
+      \uACE0\uC0DD\uB9CE\uC73C\uC168\uC2B5\uB2C8\uB2E4 \u314B "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uD68C\uC7A5:\uADF8\uB7FC \uBA3C\uC800 \uAC00\uBD10, \uB098\uB294
+      \uACC4\uC0B0\uD558\uACE0 \uAC00\uBD10\uC57C\uB418\uB2C8\uAE4C \u314B "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5:\uB124 \u314B "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  subEvnet: []
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 11400000, guid: c44ea4f8bf4b68849877150211d85206, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: cafe if rainy
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 2
+  setting:
+  - description: "\uBE44\uAC00 \uC624\uB2C8 \uCE74\uD398 \uC548\uC740 \uD55C\uC0B0\uD558\uB2E4."
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC5F4\uC2EC\uD788 \uACFC\uC81C\uD558\uB2E4 \uBC29\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4."
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 5
+    timer: 1
+    msg: 
+    weather: 1
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0

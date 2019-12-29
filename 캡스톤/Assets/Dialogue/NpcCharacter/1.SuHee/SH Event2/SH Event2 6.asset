@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event2 6
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 1
+  setting:
+  - description: "\uC218\uD76C:\uAE30\uB2E4\uB838\uC5B4? \uC640 \uACE0\uB9C8\uC6CC!! "
+    description_Image: {fileID: 21300000, guid: 8aa982273a173f241bbd6cdfb954df53,
+      type: 3}
+    descriptionTime: 1
+  - description: "(\uAC04\uB2E8\uD558\uAC8C \uB300\uD654\uB97C \uB098\uB208 \uD6C4) "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC218\uD76C: OT\uB54C \uB9CC\uB098\uC790 \uC798\uAC00! "
+    description_Image: {fileID: 21300000, guid: 8aa982273a173f241bbd6cdfb954df53,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uADF8\uB807\uAC8C \uC8FC\uC778\uACF5\uC740 \uBC29\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

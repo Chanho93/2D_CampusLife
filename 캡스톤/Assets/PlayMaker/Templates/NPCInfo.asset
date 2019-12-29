@@ -1,0 +1,1171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: NPCInfo
+  m_EditorClassIdentifier: 
+  category: General
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 11400000}
+    name: NPC Information
+    startState: InitNPC
+    states:
+    - name: Init NPC
+      description: "\uBA54\uC778 \uD2C0\nNPC : \uC5D4\uD53C\uC2DC \uC0C1\uD638\uC791\uC6A9\uD0A4
+        \uB204\uB97C \uACBD\uC6B0."
+      colorIndex: 7
+      position:
+        serializedVersion: 2
+        x: 448.23438
+        y: 258.6172
+        width: 165.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: NPC
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Change Status
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetFsmInt
+        - HutongGames.PlayMaker.Actions.SendEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 081bbf055e69bb04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 1
+              name: Bubble
+              tooltip: Bubble
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 1
+            name: EpisodeCheckFSM
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: EpisodeCheckFSM
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: StoryNumber_Check
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.6
+        fsmIntParams:
+        - useVariable: 1
+          name: StoryNumber
+          tooltip: StoryNumber
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - OnCheckEpisode
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000120000001200000010000000010000001f000000170000000f00000001000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000000000000000000000000000000000001000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000001000000
+    - name: Story Menu
+      description: "\uC2A4\uD1A0\uB9AC \uC885\uB958\uC758 \uBA54\uBAA8."
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 797.14844
+        y: 378.85156
+        width: 132
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Event1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: EVENT_PART1
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Event1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: EVENT_PART2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Event2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.StoryAction
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 64caec02
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: StoryNumber
+          tooltip: StoryNumber
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - EVENT_PART1
+        - EVENT_PART2
+        byteData: 
+        arrayParamSizes: 02000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmEvent
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000000c0000001700000017000000
+        paramName:
+        - _StoryNumber
+        - _StoryEvent
+        - 
+        - 
+        paramDataPos: 00000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000
+    - name: Change Status
+      description: "Switch Index \uAC12\uC744 \uBC14\uAFD4\uC900\uB2E4.\n\n"
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 744.2656
+        y: 243.08594
+        width: 191
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Story Menu
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: InitNPC
+      description: "NPC \uCD08\uAE30\uD654\nFINISHED : STATE\uC548\uC5D0 \uC800\uC7A5\uB41C
+        Action \uBAA8\uB450 \uB05D\uB09C \uD6C4 \uC774\uB3D9"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 59.882812
+        y: 252.92969
+        width: 229
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Init NPC
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CallMethod
+        - HutongGames.PlayMaker.Actions.GetComponent
+        customNames:
+        - Call Method
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: ca51e90004d81402
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: InitNPC
+        fsmObjectParams:
+        - useVariable: 1
+          name: NPCInfomation
+          tooltip: NPC Information
+          showInInspector: 1
+          networkSync: 0
+          typeName: HJ.NPC.NPCInformation
+          value: {fileID: 0}
+        - useVariable: 1
+          name: EpisodeCheckFSM
+          tooltip: Story
+          showInInspector: 1
+          networkSync: 0
+          typeName: PlayMakerFSM
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 18000000120000000c000000270000000100000001000000140000001800000001000000
+        paramName:
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        - gameObject
+        - storeComponent
+        - everyFrame
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000100000002000000
+        paramByteDataSize: 000000000000000000000000000000000100000001000000000000000000000001000000
+    - name: Event1
+      description: "\uB9D0\uD48D\uC120 \uB300\uD654\nBACK -> \uB418\uB3CC\uC544\uAC00\uAE30"
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 474
+        y: 354
+        width: 113
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BACK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Init NPC
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SpeechBubbleAction
+        - HutongGames.PlayMaker.Actions.CallMethod
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - "\uB9D0\uD48D\uC120 \uCD9C\uB825"
+        - "\uB79C\uB364 \uC778\uC0AC\uB9D0 \uC124\uC815"
+        - "\uB300\uAE30"
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000040000000a000000
+        actionHashCodes: 32adba00ca51e90048c01101
+        unityObjectParams:
+        - {fileID: 0}
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Bubble
+          tooltip: Bubble
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: FirstMessage
+          tooltip: "\uCCAB \uB9C8\uB514"
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: RandomMessage
+        fsmObjectParams:
+        - useVariable: 1
+          name: NPCInfomation
+          tooltip: NPC Information
+          showInInspector: 1
+          networkSync: 0
+          typeName: HJ.NPC.NPCInformation
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1.5
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 2
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - BACK
+        byteData: 000000
+        arrayParamSizes: 00000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 13000000050000000f0000001200000018000000120000000c0000002700000001000000010000000f0000001700000001000000
+        paramName:
+        - _SpeechBox
+        - _SpeechText
+        - _timer
+        - _msg
+        - behaviour
+        - methodName
+        - parameters
+        - storeResult
+        - everyFrame
+        - manualUI
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000000000000000000001000000010000000000000002000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000001000000
+    - name: Event2
+      description: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uB300\uD654\nBACK -> \uB418\uB3CC\uC544\uAC00\uAE30\nDIALOGUE
+        -> \uB300\uD654\uC2DC\uC791 \uC774\uBCA4\uD2B8 "
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 458
+        y: 561
+        width: 160
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BACK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Init NPC
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: DIALOGUE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uBCF4\uC5EC\uC8FC\uAE30"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolAllTrue
+        customNames:
+        - IF All TRUE
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 80768705
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: is_Dialogue
+          tooltip: Dialogue START?
+          showInInspector: 1
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: is_Dialogue
+          tooltip: Dialogue START?
+          showInInspector: 1
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - DIALOGUE
+        byteData: 00
+        arrayParamSizes: 01000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmBool
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c00000011000000170000001100000001000000
+        paramName:
+        - boolVariables
+        - 
+        - sendEvent
+        - storeResult
+        - everyFrame
+        paramDataPos: 0000000000000000000000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000001000000
+    - name: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uBCF4\uC5EC\uC8FC\uAE30"
+      description: "DB \uD30C\uC77C \uAC80\uC0AC\uD558\uACE0\n\uB2E4\uC774\uC5BC\uB85C\uADF8
+        \uCC3D\uC744 \uBCF4\uC5EC\uC900\uB2E4.\n\nStoryNumber ++ \uC99D\uAC00"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 111
+        y: 454
+        width: 158
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Init NPC
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PLAYDIALOGUE
+        - HutongGames.PlayMaker.Actions.SendEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 0081be035e69bb04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 0
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams:
+        - useVariable: 1
+          name: DialogueFile
+          tooltip: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD30C\uC77C"
+          showInInspector: 1
+          networkSync: 0
+          typeName: HJ.Dialogue.Dialogue
+          value: {fileID: 11400000, guid: ef7cee8ca1042cd4c85424e416087bab, type: 2}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - FINISHED
+        - OnAddStory
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1800000017000000170000001f000000170000000f00000001000000
+        paramName:
+        - objectVariable
+        - nullEvent
+        - showEvent
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000020000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000001000000
+    - name: "\uC989\uC11D \uB2E4\uC774\uC5B4\uB85C\uADF8 \uCC3D \uC2E4\uD589"
+      description: "\uC989\uC11D\uC73C\uB85C \uAC70\uCE58\uB294 State"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 790
+        y: 560
+        width: 162
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Event2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: "StoryNumber \uC99D\uAC00 \uC774\uBCA4\uD2B8"
+      description: "StoryNumber\uAC12\uC744 \uC99D\uAC00\uC2DC\uD0A8\uB2E4. \uC778\uC758\uC801\uC73C\uB85C"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 468
+        y: 115
+        width: 230
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Init NPC
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntOperator
+        customNames:
+        - StoryNumber++
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 14180903
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: StoryNumber
+          tooltip: StoryNumber
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: StoryNumber
+          tooltip: StoryNumber
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1000000010000000070000001000000001000000
+        paramName:
+        - integer1
+        - integer2
+        - operation
+        - storeResult
+        - everyFrame
+        paramDataPos: 0000000001000000000000000200000004000000
+        paramByteDataSize: 0000000000000000040000000000000001000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: TRIGGER ENTER
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: TRIGGER EXIT 2D
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: BACK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: DIALOGUE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EVENT_PART1
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EVENT_PART2
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EVENT_PART3
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EVENT_PART4
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EVENT_PART5
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: NPC
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnAddStory
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnCheckEpisode
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: OnDialogueShow
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnEpisode
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnSwitchIndexChange
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions:
+    - fsmEvent:
+        name: OnSwitchIndexChange
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Change Status
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: OnDialogueShow
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: "\uC989\uC11D \uB2E4\uC774\uC5B4\uB85C\uADF8 \uCC3D \uC2E4\uD589"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: OnAddStory
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: "StoryNumber \uC99D\uAC00 \uC774\uBCA4\uD2B8"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: OnEpisode
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Init NPC
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    variables:
+      floatVariables: []
+      intVariables:
+      - useVariable: 1
+        name: npc_id
+        tooltip: "NPC \uACE0\uC720\uBC88\uD638"
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: StoryNumber
+        tooltip: StoryNumber
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: TimeADD
+        tooltip: "\uC2DC\uAC04\uAC12 \uC99D\uAC00"
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: is_Dialogue
+        tooltip: Dialogue START?
+        showInInspector: 1
+        networkSync: 0
+        value: 1
+      stringVariables:
+      - useVariable: 1
+        name: npc_name
+        tooltip: "npc \uC774\uB984"
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: FirstMessage
+        tooltip: "\uCCAB \uB9C8\uB514"
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Bubble
+        tooltip: Bubble
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables:
+      - useVariable: 1
+        name: DialogueFile
+        tooltip: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD30C\uC77C"
+        showInInspector: 1
+        networkSync: 0
+        typeName: HJ.Dialogue.Dialogue
+        value: {fileID: 11400000, guid: ef7cee8ca1042cd4c85424e416087bab, type: 2}
+      - useVariable: 1
+        name: NPCInfomation
+        tooltip: NPC Information
+        showInInspector: 1
+        networkSync: 0
+        typeName: HJ.NPC.NPCInformation
+        value: {fileID: 0}
+      - useVariable: 1
+        name: EpisodeCheckFSM
+        tooltip: Story
+        showInInspector: 1
+        networkSync: 0
+        typeName: PlayMakerFSM
+        value: {fileID: 0}
+      - useVariable: 1
+        name: TimeManager
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        typeName: HJ.Manager.TimeManager
+        value: {fileID: 0}
+      - useVariable: 1
+        name: NextButton
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        typeName: UnityEngine.UI.Button
+        value: {fileID: 0}
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      - Dialogue
+      - GameObject
+      - Manager
+      - NextButton
+      - Object
+      - Private
+      - Setting
+      - Story
+      - Time
+      variableCategoryIDs: 070000000800000009000000010000000700000006000000020000000500000005000000050000000300000004000000
+    description: "NPC\uC758 \uC774\uC57C\uAE30"
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents:
+    - name: OnSwitchIndexChange
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: OnDialogueShow
+      isSystemEvent: 0
+      isGlobal: 0
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 1
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0

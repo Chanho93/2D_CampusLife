@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: ms 3
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 0
+  setting:
+  - description: "\uACF5\uAC15\uC774\uC5C8\uB358\uC9C0 \uC544 \uC9C4\uC9DC\u2026 4\uD559\uB144\uC774\uB098
+      \uB410\uB294\uB370 "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC544\uC9C1\uB3C4 \uBB38\uC81C\uAC00 \uC788\uB294\uAC74\uAC00 \u314B\u314B "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5:(\uC774\uAC8C \uBB50\uAC00 \uB4A4\uC22D\uC22D\uD55C\uAC74\uC9C0\u2026.)
+      \uC608\u2026 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBA85\uD604: \uC544 \uADF8\uB798 \uAC00\uC11C \uC5BB\uC740\uAC70
+      \uC788\uB294\uB370 \uC774\uAC70 \uC904\uAED8 "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "(\"\uB204\uAD70\uAC00\uB97C \uD5A5\uD55C \uB9C8\uC74C\"\uC744 \uC5BB\uC5C8\uB2E4.) "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uC774\uAC8C\uBB54\uAC00\uC694? "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBA85\uD604:\uC774\uAC70 \uC774\uC81C\uB294 \uD544\uC694\uC5C6\uB294\uB370
+      \uBB50 \uAC00\uC9C0\uACE0 \uC788\uC73C\uBA74 \uB098\uC058\uC9C0\uC54A\uC744\uAEBC\uC57C "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \"\uB204\uAD70\uAC00\"\uB77C\uB294\uAC8C \uD615\uC744
+      \uB9D0\uD558\uB294\uAC74 \uC544\uB2C8\uC8E0? "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uBA85\uD604:\uC544\uB2CC\uB370?(\uC5C4\uADFC\uC9C4) \uC77C\uB2E8
+      \uAC00\uC9C0\uACE0 \uC788\uC5B4\uBD10  "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC88B\uC740\uB370 \uC4F0\uC77C\uAEBC\uC57C "
+    description_Image: {fileID: 21300000, guid: 16030b182be92554399dd4c28bf18cfd,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uB124\u2026 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 7
+    timer: 10
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 0
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

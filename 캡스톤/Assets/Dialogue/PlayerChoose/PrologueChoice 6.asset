@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: PrologueChoice 6
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _ChoiceMsg1: "\uC608 "
+  _NextChoice1Node:
+    _NextNode: {fileID: 11400000, guid: 7889ef3969723c64d8955df089b9b7b5, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent1:
+  - msgenum: 7
+    timer: 2
+    pos: {fileID: 0}
+  _ChoiceMsg2: "\uC544\uB1E8... "
+  _NextChoice2Node:
+    _NextNode: {fileID: 11400000, guid: 7889ef3969723c64d8955df089b9b7b5, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent2: []
+  _ChoiceMsg3: "\uAE00\uC384\uC694..."
+  _NextChoice3Node:
+    _NextNode: {fileID: 11400000, guid: 7889ef3969723c64d8955df089b9b7b5, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent3:
+  - msgenum: 7
+    timer: 1
+    pos: {fileID: 0}

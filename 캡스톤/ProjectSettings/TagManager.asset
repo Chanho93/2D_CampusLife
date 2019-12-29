@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPC
+  - NPC2
+  - MapID
+  - Warp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - NoPassing
+  - Joystick
+  - MapID
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 2387646657
+    locked: 0
+  - name: Object
+    uniqueID: 3118079967
+    locked: 0
+  - name: Player
+    uniqueID: 2426788561
+    locked: 0
+  - name: Above Obejct
+    uniqueID: 1600990815
+    locked: 0
+  - name: UI
+    uniqueID: 283071217
+    locked: 0
+  - name: Weather
+    uniqueID: 3612002435
+    locked: 0
+  - name: Dialogue
+    uniqueID: 2478825317
+    locked: 0
+  - name: FadeOut
+    uniqueID: 1530759173
+    locked: 0

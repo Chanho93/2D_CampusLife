@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event2 8
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 4
+  setting:
+  - description: "\uC8FC\uC778\uACF5: \uC5ED\uC2DC \uC9EC\uB0A0 \uB54C\uB294 \uAC8C\uC784\uC774\uC9C0~ "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uB0A8\uC6B0,\uADDC\uD638: (\uC8FC\uC778\uACF5\uC774 \uC65C \uC5EC\uAE30\uC788\uB294
+      \uAC70\uC9C0?) "
+    description_Image: {fileID: 21300000, guid: 321777e9dfaefa840bfeb25aded07acf,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uB0A8\uC6B0: \u2026...\uC8FC\uC778\uACF5? \uC5EC\uAE30\uC11C \uBB50\uD574?
+      \uB3D9\uC544\uB9AC \uAC14\uB358\uAC70 \uC544\uB0D0? "
+    description_Image: {fileID: 21300000, guid: 6ead4995906b78d4a9c73b6ae5f145e0,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uB3D9\uC544\uB9AC\uBAA8\uC784 \uB05D\uB098\uC11C
+      \uC654\uC5B4~ "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uADDC\uD638: \uADF8\uB798? \uADFC\uB370 \uAC19\uC774\uC788\uB358
+      \uC218\uD76C\uB294? "
+    description_Image: {fileID: 21300000, guid: 321777e9dfaefa840bfeb25aded07acf,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5:\uC544 \uAFB8\uC911\uB4E3\uB294\uAC70 \uAE30\uB2E4\uB9AC\uAE30
+      \uC2EB\uC5B4\uC11C \uADF8\uB0E5 \uB098\uC654\uC5B4 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uB0A8\uC6B0: \uADF8\uB807\uAD6C\uB098\u2026\uC5B4\uCA54 \uC218
+      \uC5C6\uC9C0... "
+    description_Image: {fileID: 21300000, guid: 6ead4995906b78d4a9c73b6ae5f145e0,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5:(\uBD84\uC704\uAE30\uAC00 \uBB54\uAC00 \uC384\uD558\uB2E4\u2026)\uADF8\uB798\u2026 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uADDC\uD638: \uADF8\uB7FC \uAC19\uC774 \uAC8C\uC784\uC774\uB098
+      \uD55C \uD310\uD560\uAE4C? \uC774\uB807\uAC8C 3\uBA85\uC5D0\uC11C \uBAA8\uC778\uC801
+      \uC624\uB79C\uB9CC\uC774\uC796\uC544 \u314B "
+    description_Image: {fileID: 21300000, guid: 321777e9dfaefa840bfeb25aded07acf,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uB0A8\uC6B0:\u2026..\uADF8\uB798 "
+    description_Image: {fileID: 21300000, guid: 6ead4995906b78d4a9c73b6ae5f145e0,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5: \uADF8\uB807\uAC8C 3\uBA85\uC774\uC11C \uAC19\uC774
+      PC\uBC29\uC5D0 \uC788\uB2E4\uAC00 \uBC29\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4\u2026 "
+    description_Image: {fileID: 21300000, guid: d2a4259514bb9ef4486eac282266217b,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uD558\uC9C0\uB9CC \uBB54\uAC00 \uC774\uC0C1\uD558\uB2E4\u2026 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet:
+  - msgenum: 6
+    timer: 2
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 16
+    timer: 6
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  - msgenum: 1
+    timer: 1
+    msg: 
+    weather: 0
+    minMoney: 0
+    maxMoney: 0
+    mapwarp: {fileID: 0}
+    mapBoundID: 0
+    npcIndex: 0
+    addStory: 0
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 0}
+    _flow: 1

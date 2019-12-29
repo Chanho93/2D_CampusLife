@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb416ae2fbe1cc48916f3007b2e7eac, type: 3}
+  m_Name: SH Choose
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  _ChoiceMsg1: "\uC751, \uB4E4\uC5B4\uAC00\uACE0\uC2F6\uC5B4 "
+  _NextChoice1Node:
+    _NextNode: {fileID: 11400000, guid: 1ccac32ff61148b409a29e267c129043, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent1: []
+  _ChoiceMsg2: "\uC544\uB2C8, \uC2A4\uD3EC\uCE20\uB294 \uAD00\uC2EC\uC5C6\uC5B4\uC11C\u2026 "
+  _NextChoice2Node:
+    _NextNode: {fileID: 11400000, guid: 2bd5e1f15f630bb4eba1f12c9175fa52, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent2: []
+  _ChoiceMsg3: "\uC880 \uB354 \uC0DD\uAC01\uD558\uACE0 \uC62C\uAED8 "
+  _NextChoice3Node:
+    _NextNode: {fileID: 11400000, guid: 2bbb073cfae792b4fa11f223685b1496, type: 2}
+    _ChoiceNode: {fileID: 0}
+    _flow: 0
+  subevent3: []

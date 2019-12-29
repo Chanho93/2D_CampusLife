@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: SH Event 3 6
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  backgroundUI: 6
+  setting:
+  - description: "\uD68C\uC7A5: \uADF8\uB7FC \uC774\uC81C \uC778\uC0AC\uAC00 \uB05D\uB0AC\uC73C\uB2C8
+      \uBAA8\uB450\uB4E4 \uB2E4 \uC788\uC9C0? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uB2E4\uB4E4 \uC220 \uC801\uB2F9\uD788 \uB9C8\uC2DC\uACE0 \uADF8~~~~~\uB7FC "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC55E\uC73C\uB85C \uB3D9\uC544\uB9AC\uC5D0\uC11C \uC990\uAC81\uAC8C
+      \uC9C0\uB0B4\uC790! \uAC74\uBC30!!! "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uBD80\uC6D0\uB4E4: \uAC74~~~~\uBC30! "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uADF8\uB807\uAC8C \uBD84\uC704\uAE30\uAC00 \uBB34\uB974\uC775\uC744
+      \uB54C\uCBD4\uC74C\u2026 "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uD68C\uC7A5: \uC774\uC81C 2\uCC28 \uAC08 \uC0AC\uB78C? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC218\uD76C: \uC800\uC694 \uC800\uC694! "
+    description_Image: {fileID: 21300000, guid: 8aa982273a173f241bbd6cdfb954df53,
+      type: 3}
+    descriptionTime: 1
+  - description: "\uD68C\uC7A5: \uC218\uD76C\uB294 \uC5B8\uC81C\uB4E0 \uD658\uC601\uC774\uC9C0! "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  - description: "\uC8FC\uC778\uACF5\uC740 \uC5B4\uB5BB\uAC8C \uD589\uB3D9\uD560 \uAC83\uC778\uAC00? "
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  subEvnet: []
+  _fsmFile: {fileID: 0}
+  _fsmevent: OnLoad
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 11400000, guid: 55f4f86b1ea2f9c46aa5aece199fce27, type: 2}
+    _flow: 1

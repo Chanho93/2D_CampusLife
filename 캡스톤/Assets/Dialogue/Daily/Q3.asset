@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f067b942281d9d43a73997715f131c2, type: 3}
+  m_Name: Q3
+  m_EditorClassIdentifier: 
+  NodeID: -1
+  dialogueTitle: 
+  setting:
+  - description: "\uB2E4\uC74C \uC911 \uC9C0\uD558\uCCA0 \uC774\uB098 \uBC84\uC2A4\uAC00
+      \uB2EC\uB9AC\uB2E4\uAC00 \uAC11\uC790\uAE30 \uBA48\uCD94\uC5C8\uC744\uB54C,
+      \   \uADF8 \uC548\uC758 \uC0AC\uB78C\uC774 \uB118\uC5B4\uC9C0\uB294 \uAC83\uC740
+      \uBB34\uC5C7\uC774\uB77C \uD558\uB294\uAC00?"
+    description_Image: {fileID: 0}
+    descriptionTime: 1
+  nextNODE:
+    _NextNode: {fileID: 0}
+    _ChoiceNode: {fileID: 11400000, guid: f6b352a8c5034e6448307ccc5db72d56, type: 2}
+    _flow: 1
