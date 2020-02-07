@@ -2,7 +2,7 @@
  
 졸업작품_캡스톤 디자인 동상
 
-1.메인화면
+1.메인화면 
 
 ![image](https://user-images.githubusercontent.com/48191157/71571288-e76d4c80-2b1c-11ea-9eb2-7bc3216c305e.png)
 
